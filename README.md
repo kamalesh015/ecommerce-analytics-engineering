@@ -19,6 +19,7 @@ This project bridges the gap between raw data and business strategy. I architect
 ### 1. The Financial Executive Summary
 Designed for the Finance Director to track high-level growth and shipping cost burdens.
 * **Key Metrics:** Total Revenue, MoM Growth, Shipping vs. Product Revenue Split.
+<img width="1096" height="613" alt="image" src="https://github.com/user-attachments/assets/cab5e0a2-35fe-4cd9-af87-8bc6928c3d6a" />
 
 
 ### 2. Customer Cohort Retention Heatmap
