@@ -13,6 +13,8 @@ This project bridges the gap between raw data and business strategy. I architect
 * **Language:** Standard SQL
 
 ---
+[Architecture Diagram]
+<img width="1798" height="855" alt="image" src="https://github.com/user-attachments/assets/6d223151-e999-4bcb-9110-0771736381a7" />
 
 ## 📊 Business Dashboards
 
@@ -25,6 +27,7 @@ Designed for the Finance Director to track high-level growth and shipping cost b
 ### 2. Customer Cohort Retention Heatmap
 Designed for the Marketing Director to instantly visualize customer churn and identify drop-off months.
 * **Key Metrics:** Active Customers per Cohort, Month-over-Month Retention Rate.
+<img width="785" height="608" alt="image" src="https://github.com/user-attachments/assets/f56a0425-3a41-42f9-84dc-308422180c3a" />
 
 
 ---
