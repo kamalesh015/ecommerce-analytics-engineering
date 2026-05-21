@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: mart_monthly_revenue
+    description: "Monthly aggregation of total orders and gross revenue."
+    columns:
+      - name: order_month
+        description: "The first day of the month the orders were placed."
+        tests:
+          - unique
+          - not_null
+      - name: total_revenue
+        description: "Total revenue including product price and shipping cost."
+        tests:
+          - not_null
+
+  - name: mart_cohort_retention
+    description: "Tracks how many customers return in the months following their first purchase."
+    columns:
+      - name: cohort_month
+        description: "The month the user made their very first purchase."
+        tests:
+          - not_null
+      - name: active_customers
+        description: "The number of unique users who made a purchase in this specific month."
+        tests:
+          - not_null
